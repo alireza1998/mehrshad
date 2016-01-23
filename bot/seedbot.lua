@@ -221,29 +221,16 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {155724993,171481453,151624528,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+@alireza_PT [Manager] and [Developer]
 
-Our channels
-@teleseedch [English]
-@iranseed [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -320,111 +307,78 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-Commands list :
+unlimited bot Help for mods: ☮
+plugins: Ⓜ️
 
-!kick [username|id]
-You can also do it by reply
+!kick [username|id] 🎴
 
-!ban [ username|id]
-You can also do it by reply
+!ban [ username|id] ☢
 
-!unban [id]
-You can also do it by reply
+!unban [id] ☣
 
-!who
-Members list
+!who 🔴
 
-!modlist
-Moderators list
+!modlist 🔶
 
-!promote [username]
-Promote someone
+!promote [username] 💥
 
-!demote [username]
-Demote someone
+!demote [username] 🖲
 
-!kickme
-Will kick user
+!kickme ✴️
 
-!about
-Group description
+!about ♻️
 
-!setphoto
-Set and locks group photo
+!setphoto 🌪
 
-!setname [name]
-Set group name
+!setname [name] 🈳
 
-!rules
-Group rules
+!rules 🕶
 
-!id
-return group id or user id
+!id ✳️
 
-!help
+!help ⭕️
 
-!lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
+!lock [member|name|bots|leave]  🔸
 
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+!unlock [member|name|bots|leave] ☯
 
-!set rules <text>
-Set <text> as rules
+!set rules <text> 😈
 
-!set about <text>
-Set <text> as about
+!set about <text> ➰
 
-!settings
-Returns group settings
+!settings 🌂
 
-!newlink
-create/revoke your group link
+!newlink ⚽️
 
-!link
-returns group link
+!link 👾
 
-!owner
-returns group owner id
+!owner 🌋
 
-!setowner [id]
-Will set id as owner
+!setowner [id] 🛡
 
-!setflood [value]
-Set [value] as flood sensitivity
+!setflood [value] 🔵
 
-!stats
-Simple message statistics
+!stats ➿
 
-!save [value] <text>
-Save <text> as [value]
+!save [value] <text> ❇️
 
-!get [value]
-Returns text of [value]
+!get [value] 💰
 
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+[modlist|rules|about] ☢
 
-!res [username]
-returns user id
-"!res @username"
+!res [username] 🈳
 
-!log
-will return group logs
+"!res @username" 💥
 
-!banlist
-will return group ban list
+!log 🎴
 
-**U can use both "/" and "!" 
+!banlist 🖲
 
+**U can use both "/" and "!"  ❎
 
-*Only owner and mods can add bots in group
+*Only owner and mods can add bots in group 🔱
 
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
-
+* for creategroup send 10 sticker to @alonehackers
 ]]
   }
   serialize_to_file(config, './data/config.lua')
